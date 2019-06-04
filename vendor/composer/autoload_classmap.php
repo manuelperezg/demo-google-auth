@@ -6,5 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'PHPGangsta_GoogleAuthenticator' => $baseDir . '/PHPGangsta/GoogleAuthenticator.php',
 );

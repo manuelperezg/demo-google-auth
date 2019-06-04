@@ -6,14 +6,9 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitb9b6a65dbcf5488288aee8a6eb4026af
 {
-    public static $classMap = array (
-        'PHPGangsta_GoogleAuthenticator' => __DIR__ . '/../..' . '/PHPGangsta/GoogleAuthenticator.php',
-    );
-
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInitb9b6a65dbcf5488288aee8a6eb4026af::$classMap;
 
         }, null, ClassLoader::class);
     }

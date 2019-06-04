@@ -2,7 +2,7 @@
 	require_once('generador.php');
 	
 	// echo "<br>".$codigo_secreto."<br>";
-	echo   "<br>".$oneCode."<br>";
+	// echo   "<br>".$oneCode."<br>";
 
 
 ?>

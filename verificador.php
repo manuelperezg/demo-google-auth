@@ -14,11 +14,11 @@
 
 	if( $resultado ){
 
-		echo "Codigo valido";
+		echo "Tu Código es valido, te haz logueado correctamente";
 
 	}else{
 
-		echo "Codigo invalido";
+		echo "Tu Código es invalido, fallo al authenticar";
 
 	}
 
