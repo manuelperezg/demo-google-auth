@@ -1,4 +1,4 @@
-# demo-google-auth
+# Google-auth-demo
 
 Google Sign-In
 
